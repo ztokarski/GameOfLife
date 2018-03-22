@@ -10,6 +10,9 @@ namespace GameOfLife
     {
         static void Main(string[] args)
         {
+            GameController gameController = new GameController(40);
+            gameController.Run();
+
         }
     }
 }
